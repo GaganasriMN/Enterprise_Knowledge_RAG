@@ -1,0 +1,57 @@
+[
+  {
+    "log_id": "LOG-9001",
+    "timestamp": "2026-05-12T09:14:00Z",
+    "system": "payment-api",
+    "severity": "high",
+    "event": "connection_pool_exhausted",
+    "details": "Database wait time crossed 1800 ms after retry volume increased during checkout traffic.",
+    "owner_department": "IT",
+    "sensitivity": "internal",
+    "allowed_roles": ["IT", "Auditor", "Admin"]
+  },
+  {
+    "log_id": "LOG-9107",
+    "timestamp": "2026-05-18T12:22:00Z",
+    "system": "data-export",
+    "severity": "medium",
+    "event": "pii_export_blocked",
+    "details": "An employee attempted to export customer PII without a Compliance approval reference.",
+    "owner_department": "Compliance",
+    "sensitivity": "restricted",
+    "allowed_roles": ["Auditor", "Admin"]
+  },
+  {
+    "log_id": "LOG-9203",
+    "timestamp": "2026-05-20T15:45:00Z",
+    "system": "hr-portal",
+    "severity": "low",
+    "event": "leave_policy_viewed",
+    "details": "Employee self-service traffic increased after the remote work policy update.",
+    "owner_department": "HR",
+    "sensitivity": "internal",
+    "allowed_roles": ["Employee", "HR", "Admin"]
+  },
+  {
+    "log_id": "LOG-9304",
+    "timestamp": "2026-05-22T08:05:00Z",
+    "system": "access-review",
+    "severity": "medium",
+    "event": "entitlement_exception_overdue",
+    "details": "A finance approver entitlement exception remained unresolved for seven business days.",
+    "owner_department": "Compliance",
+    "sensitivity": "restricted",
+    "allowed_roles": ["Auditor", "Admin"]
+  },
+  {
+    "log_id": "LOG-9412",
+    "timestamp": "2026-05-24T17:35:00Z",
+    "system": "endpoint-management",
+    "severity": "high",
+    "event": "device_quarantined",
+    "details": "A laptop missing critical patches for more than fourteen days was quarantined from production administration networks.",
+    "owner_department": "Security",
+    "sensitivity": "restricted",
+    "allowed_roles": ["IT", "Auditor", "Admin"]
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hr_remote_work",
+    "role": "Employee",
+    "query": "How many days per week can employees work remotely and what approval is needed?",
+    "relevant_sources": ["hr_policy_handbook.pdf", "hr_policy.md"],
+    "relevant_chunk_ids": ["hr_policy_handbook-page-1"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["three", "manager approval", "remote"]
+  },
+  {
+    "id": "it_password_reset",
+    "role": "Employee",
+    "query": "What should service desk avoid asking for during password reset?",
+    "relevant_sources": ["it_support_procedures.md"],
+    "relevant_chunk_ids": ["it_support_procedures-1"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["passwords", "mfa codes", "seed phrases"]
+  },
+  {
+    "id": "finance_q4_revenue_denied",
+    "role": "Employee",
+    "query": "What was Q4 revenue?",
+    "relevant_sources": ["finance_report.md"],
+    "relevant_chunk_ids": ["finance_report-1"],
+    "expected_allowed": false,
+    "must_cite": false,
+    "answer_terms": ["access denied", "insufficient", "permitted"]
+  },
+  {
+    "id": "finance_cloud_costs",
+    "role": "Finance",
+    "query": "What cloud cost savings estimate is mentioned after right-sizing?",
+    "relevant_sources": ["finance_operating_report.md", "enterprise_records.sql"],
+    "relevant_chunk_ids": ["finance_operating_report-2", "SQL-610"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["42000", "right-sizing", "cloud"]
+  },
+  {
+    "id": "it_payment_incident",
+    "role": "IT",
+    "query": "Why did the payment API incident happen and what follow-up was opened?",
+    "relevant_sources": ["it_incident.md", "project_delivery_notes.md", "audit_logs.json"],
+    "relevant_chunk_ids": ["it_incident-1", "it_incident-3", "it_incident-4", "PRJ-402"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["connection pool", "retry", "load test"]
+  },
+  {
+    "id": "auditor_access_review",
+    "role": "Auditor",
+    "query": "What evidence is required for quarterly access or entitlement reviews?",
+    "relevant_sources": ["compliance_audit_playbook.md", "compliance_policy.md", "enterprise_records.sql", "audit_logs.json"],
+    "relevant_chunk_ids": ["compliance_audit_playbook-2", "compliance_policy-4", "SQL-915", "LOG-9304"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["reviewer", "approval", "exception"]
+  },
+  {
+    "id": "security_mfa_denied",
+    "role": "Employee",
+    "query": "What MFA rules apply to privileged systems?",
+    "relevant_sources": ["security_policy.md"],
+    "relevant_chunk_ids": ["security_policy-1"],
+    "expected_allowed": false,
+    "must_cite": false,
+    "answer_terms": ["access denied", "insufficient", "permitted"]
+  },
+  {
+    "id": "security_endpoint",
+    "role": "IT",
+    "query": "When are laptops quarantined from production administration networks?",
+    "relevant_sources": ["security_policy.md", "audit_logs.json"],
+    "relevant_chunk_ids": ["security_policy-3", "LOG-9412"],
+    "expected_allowed": true,
+    "must_cite": true,
+    "answer_terms": ["fourteen days", "critical patches", "quarantined"]
+  }
+]

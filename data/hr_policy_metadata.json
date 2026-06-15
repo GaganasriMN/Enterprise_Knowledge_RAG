@@ -1,0 +1,25 @@
+{
+  "source": "hr_policy_handbook.pdf",
+  "title": "HR Employee Policy Handbook 2026",
+  "source_type": "pdf_document",
+  "department": "HR",
+  "sensitivity": "internal",
+  "allowed_roles": ["Employee", "HR", "Admin"],
+  "owner": "People Operations",
+  "retention": "7 years",
+  "pages_expected": 12,
+  "policy_domains": [
+    "remote_work",
+    "leave",
+    "benefits",
+    "performance",
+    "travel",
+    "conduct",
+    "data_handling",
+    "onboarding",
+    "offboarding",
+    "hybrid_meetings",
+    "compensation",
+    "exceptions"
+  ]
+}

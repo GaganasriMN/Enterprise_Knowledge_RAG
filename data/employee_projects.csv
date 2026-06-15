@@ -1,0 +1,8 @@
+project_id,project_name,department,status,budget,business_note,sensitivity,allowed_roles
+PRJ-101,Payroll Modernization,Finance,In Progress,320000,Automates payroll reconciliation and finance controls,confidential,Finance|Admin
+PRJ-204,Customer Support Analytics,Operations,Active,180000,Improves case routing using operational dashboards,internal,Employee|IT|Admin
+PRJ-305,Zero Trust Access Review,Compliance,Planned,210000,Quarterly access review for sensitive systems,restricted,Auditor|Admin
+PRJ-402,Checkout Reliability Upgrade,IT,Active,260000,Improves payment API resilience after incident INC-1023,internal,IT|Auditor|Admin
+PRJ-510,Access Review Automation,Compliance,Active,210000,Automates quarterly entitlement review evidence collection,restricted,Auditor|Admin
+PRJ-611,SecureConnect VPN Migration,IT,Delayed,95000,Replaces legacy VPN Classic support procedures with SecureConnect,internal,Employee|IT|Admin
+PRJ-733,Cloud Cost Controls,Finance,Active,175000,Tracks workload right-sizing and reserved instance coverage,confidential,Finance|Admin
