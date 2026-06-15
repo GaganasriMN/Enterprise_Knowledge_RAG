@@ -33,19 +33,25 @@ The focus was understanding how the individual pieces of a RAG pipeline work tog
 
 User Query
     ↓
+    
 Query Planning
     ↓
+    
 Retrieval
     ├─ Keyword Search
     ├─ Semantic Search
     └─ Vector Search
     ↓
+    
 Reranking
     ↓
+    
 Context Assembly
     ↓
+    
 Answer Generation
     ↓
+    
 Response + Citations
 ---
 
@@ -82,10 +88,15 @@ Response + Citations
 ## Running The Project
 
 Create a virtual environment: python -m venv .venv
+
 Activate it: .venv\Scripts\activate
+
 Install dependencies: pip install -r requirements.txt
+
 Run the application: streamlit run app.py
+
 The application will be available at: http://localhost:8501
+
 ---
 
 ## Evaluation
